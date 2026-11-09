@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Grupo exclusivo · himed</title>
+  <meta name="description" content="Entre para o grupo exclusivo da himed e receba em primeira mão a oferta de pré-lançamento da plataforma.">
+  <meta name="theme-color" content="#1471E6">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="himed">
+  <meta property="og:title" content="Grupo exclusivo da himed">
+  <meta property="og:description" content="A oferta de pré-lançamento da plataforma chega primeiro no grupo.">
+  <link rel="canonical" href="https://medcreatorai.github.io/grupo-himed/">
+  <meta property="og:url" content="https://medcreatorai.github.io/grupo-himed/">
+  <meta property="og:image" content="https://medcreatorai.github.io/grupo-himed/assets/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --azul: #1471E6;
+      --preto: #000000;
+      --branco: #FFFFFF;
+      --ciano: #A6FFF8;
+      --branco-apoio: rgba(255, 255, 255, 0.78);
+      --branco-fino: rgba(255, 255, 255, 0.28);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { background: var(--azul); }
+
+    body {
+      min-height: 100vh;
+      min-height: 100dvh;
+      background: var(--azul);
+      color: var(--branco);
+      font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', sans-serif;
+      -webkit-font-smoothing: antialiased;
+      display: flex;
+      flex-direction: column;
+      padding:
+        max(28px, env(safe-area-inset-top))
+        max(20px, env(safe-area-inset-right))
+        max(24px, env(safe-area-inset-bottom))
+        max(20px, env(safe-area-inset-left));
+    }
+
+    .pagina {
+      width: 100%;
+      max-width: 480px;
+      margin: 0 auto;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .logo { display: block; width: 132px; height: auto; }
+
+    .conteudo {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 48px 0 40px;
+    }
+
+    .selo {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      align-self: flex-start;
+      padding: 7px 14px 7px 12px;
+      border: 1px solid var(--branco-fino);
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 24px;
+    }
+
+    .ponto {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: var(--ciano);
+      animation: gravando 1.6s ease-in-out infinite;
+    }
+
+    @keyframes gravando {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.35; }
+    }
+
+    h1 {
+      font-weight: 800;
+      font-size: clamp(28px, 8.8vw, 48px);
+      line-height: 1.08;
+      letter-spacing: -0.01em;
+    }
+
+    h1 .linha { display: block; }
+
+    h1 .tarja {
+      display: inline-block;
+      background: var(--ciano);
+      color: var(--preto);
+      padding: 0.02em 0.22em 0.04em;
+      margin: 0.1em 0 0.1em -0.22em;
+    }
+
+    .texto {
+      margin-top: 24px;
+      font-size: 18px;
+      line-height: 1.55;
+      max-width: 30ch;
+    }
+
+    .apoio {
+      margin-top: 12px;
+      font-size: 16px;
+      line-height: 1.6;
+      color: var(--branco-apoio);
+      max-width: 32ch;
+    }
+
+    .cta {
+      margin-top: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      width: 100%;
+      min-height: 60px;
+      padding: 16px 24px;
+      background: var(--branco);
+      color: var(--preto);
+      border-radius: 14px;
+      font-size: 18px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: transform 0.15s ease, background 0.15s ease;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .cta:hover { background: var(--ciano); }
+    .cta:active { transform: scale(0.98); }
+    .cta:focus-visible { outline: 3px solid var(--ciano); outline-offset: 3px; }
+
+    .cta svg { width: 24px; height: 24px; flex: none; }
+
+    .nota {
+      margin-top: 14px;
+      text-align: center;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--branco-apoio);
+    }
+
+    .rodape {
+      border-top: 1px solid var(--branco-fino);
+      padding-top: 18px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--branco-apoio);
+    }
+
+    .rodape a { color: var(--branco); text-decoration: none; }
+    .rodape a:hover { text-decoration: underline; }
+
+    @media (min-width: 720px) {
+      .logo { width: 150px; }
+      .conteudo { padding: 64px 0 56px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .ponto { animation: none; }
+      .cta { transition: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="pagina">
+    <header>
+      <img class="logo" src="assets/himed-logo-branco.png" width="720" height="199" alt="himed">
+    </header>
+
+    <main class="conteudo">
+      <span class="selo"><span class="ponto" aria-hidden="true"></span>Pré-lançamento</span>
+
+      <h1>
+        <span class="linha">ENTRE PARA O</span>
+        <span class="linha"><span class="tarja">GRUPO EXCLUSIVO</span></span>
+        <span class="linha">DA himed</span>
+      </h1>
+
+      <p class="texto">No grupo, você recebe em primeira mão a oferta de pré-lançamento da plataforma.</p>
+      <p class="apoio">Como ela vai funcionar, a gente conta lá dentro.</p>
+
+      <a class="cta" href="https://chat.whatsapp.com/L03MH2bnyLq9cjd52ksuaQ?mode=gi_t" rel="noopener">
+        <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor">
+          <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.87 9.87 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm0 18.15h-.01a8.23 8.23 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.82c0 4.54-3.7 8.23-8.23 8.23Zm4.51-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.24 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.29Z"/>
+        </svg>
+        Entrar no grupo
+      </a>
+      <p class="nota">Abre direto no WhatsApp.</p>
+    </main>
+
+    <footer class="rodape">
+      <span>Feito por médico, para médico creator.</span>
+      <a href="https://www.instagram.com/himed_ai/" rel="noopener">@himed_ai</a>
+    </footer>
+  </div>
+</body>
+</html>
